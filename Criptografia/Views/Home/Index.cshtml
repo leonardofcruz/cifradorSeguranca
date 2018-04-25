@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron">
+    <h1>Cripto 1.0</h1>
+    <p class="lead">Cripto 1.0 é uma aplicativo para criptografia e descriptografia com base nas cifras DES e AES!</p>
+    <p><a href="https://pt.wikipedia.org/wiki/Data_Encryption_Standard" class="btn btn-primary btn-lg">Leia mais sobre DES.&raquo;</a></p>
+    <p><a href="https://pt.wikipedia.org/wiki/Advanced_Encryption_Standard" class="btn btn-primary btn-lg">leia mais sobre AES.&raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Cifrar e Decifrar", "Criptografia", "Home")</h2>
+        <p>
+            Criptografe e Descriptografe textos com as cifra DES e AES!
+        </p>
+        <p><a class="btn btn-default" href="~/Home/Criptografia">Tente! &raquo;</a></p>
+    </div>
+</div>
